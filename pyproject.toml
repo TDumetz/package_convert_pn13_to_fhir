@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "package_convert_pn13_to_fhir"
+version = "0.1.0"
+description = "Script pour passer d'une prescription médicale au format PN13 vers le format FHIR"
+authors = [{ name = "DUMETZ" }]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.11.13"
+dependencies = [
+  "pandas==2.2.2"
+]
+
+[project.urls]
+Homepage = "https://github.com/TDumetz/package_convert_pn13_to_fhir"
